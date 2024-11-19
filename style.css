@@ -300,4 +300,8 @@ body {
   .login-section {
     padding: 5%;
   }
+  .slide img{
+    padding-inline: 5%;
+  }
+
 }
