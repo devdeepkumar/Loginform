@@ -11,6 +11,7 @@
      slide.classList.toggle("active", i === index);
      dots[i].classList.toggle("active", i === index);
    });
+   
  }
 
  // Move to the next slide

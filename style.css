@@ -14,7 +14,10 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #f4f5f7;
+  background-image: url(Layer\ 1.webp);
 }
+
+
 
 .container {
   display: grid;
@@ -126,7 +129,7 @@ body {
 
 .input-icon select {
   width: 100%;
-  padding: 7px 10px;
+  padding: 7.5px 10px;
   border-radius: 6px;
   font-size: 16px;
   color: #6c757d;
