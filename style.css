@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Host Grotesk", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Host Grotesk", sans-serif;
 }
 body {
   margin: 0;
@@ -18,9 +17,9 @@ body {
 }
 
 .container {
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
-  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
   min-height: 80vh;
   background: white;
   border-radius: 10px;
@@ -29,19 +28,19 @@ body {
 }
 
 .login-section {
-    width: 100%;
+  width: 100%;
   padding: 4rem 5rem;
   background: #fff;
 }
-.login-header img{
-    width: 136px;
+.login-header img {
+  width: 170px;
 }
 
 .login-header h1 {
   font-size: 1.7rem;
   font-weight: 700;
   margin-block: 1rem;
-    color: #092040;
+  color: #092040;
 }
 
 .login-header p {
@@ -53,11 +52,10 @@ body {
   margin: 0.5rem 0;
   padding: 0.75rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
 }
-
 
 .divider {
   text-align: center;
@@ -74,7 +72,7 @@ body {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .input-group .toggle-password {
@@ -93,25 +91,24 @@ body {
   font-size: 0.9rem;
   margin-top: 1.5rem;
 }
-.options input{
-    width: 20px;
-    height: 20px;
-    appearance: none;
-    background: #0658d4;
-    border: 10x solid black;
-    border-radius: 5px;
-    margin-right: 10px;
-    border-radius: 4px;
+.options input {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  background: #0658d4;
+  border: 10x solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
 }
 
-.options input:checked{
-    background-image: url(./download.svg);
+.options input:checked {
+  background-image: url(./download.svg);
 }
 .options label {
   display: flex;
   align-items: center;
-  color: #6C757D;
-  
+  color: #6c757d;
 }
 
 .options a {
@@ -125,7 +122,7 @@ body {
   color: white;
   padding: 0.75rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 6;
   cursor: pointer;
   font-size: 1rem;
   margin-block: 2rem;
@@ -140,8 +137,6 @@ body {
   color: #0658d4;
   text-decoration: none;
 }
-
-
 
 .info-content {
   text-align: center;
@@ -160,7 +155,6 @@ body {
   font-size: 0.9rem;
 }
 
-
 .form-group {
   display: flex;
   flex-direction: column;
@@ -174,34 +168,35 @@ body {
 
 .input-icon input {
   width: 100%;
-  padding: 7px 40px; /* Adds space for the icon */
+  padding: 7px 40px; 
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 16px;
-  background:  #fafbff;
-  transition: .3s;
-   box-shadow: 0px 0px 1px 1px #c2dfff;
+  background: #fafbff;
+  transition: 0.3s;
+  border: none;
+box-shadow: 0 0 1px 1px #c2dfff; 
+
 }
+
 .input-icon select {
   width: 100%;
-  padding: 7px 10px; /* Adds space for the icon */
-  border: 1px solid #ccc;
+  padding: 7px 10px;
   border-radius: 8px;
   font-size: 16px;
-  color: #6C757D; 
-  background:  #fafbff;
-   transition: .3s;
-    box-shadow: 0px 0px 1px 1px #c2dfff;
+  color: #6c757d;
+  background: #fafbff;
+  transition: 0.3s;
+  appearance: none;
+  box-shadow: 0 0 1px 1px #c2dfff; 
+  border: none;
 }
-
-
 
 .input-icon input:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-
 
 .input-icon select:focus {
   outline: none;
@@ -210,11 +205,11 @@ body {
 }
 
 .input-icon input::placeholder {
-  color: #6C757D;
+  color: #6c757d;
 }
 
 .input-icon::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 10px;
@@ -224,41 +219,23 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.hide-icon{
-    position: relative;
-    width: 100%;
-}
-.hide-icon::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-  background-repeat: no-repeat;
-background-image: url('hide.svg'); /* Replace with your password icon URL */
+
+
+.eye_icon{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
 }
 
 
 .input-icon:nth-child(1)::before {
-  background-image: url('email.svg'); /* Replace with your email icon URL */
+  background-image: url("email.svg"); /* Replace with your email icon URL */
 }
 
 .input-icon:nth-child(2)::before {
-  background-image: url('padlock.svg'); /* Replace with your password icon URL */
+  background-image: url("padlock.svg"); /* Replace with your password icon URL */
 }
-
-
-
-
-
-
-
-
-
-
 
 .info-section {
   width: 100%;
@@ -293,7 +270,6 @@ background-image: url('hide.svg'); /* Replace with your password icon URL */
 .slide.active {
   display: flex;
 }
-
 
 .slider-controls {
   position: absolute;
@@ -368,12 +344,12 @@ background-image: url('hide.svg'); /* Replace with your password icon URL */
 }
 
 @media (max-width: 991px) {
-    .container{
-        width: 100%;
-        grid-template-columns: repeat(1,1fr);
-    }
+  .container {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .login-section{
-        padding: 5%;
-    }
+  .login-section {
+    padding: 5%;
+  }
 }
