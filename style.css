@@ -247,6 +247,7 @@ background-image: url('hide.svg'); /* Replace with your password icon URL */
 
 .info-section {
   width: 100%;
+  min-height: 80vh;
   background: #0658d4;
   color: white;
   display: flex;
@@ -353,11 +354,11 @@ background-image: url('hide.svg'); /* Replace with your password icon URL */
 
 @media (max-width: 991px) {
     .container{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1,1fr);
     }
 
     .login-section{
-        padding: 10%;
+        padding: 5%;
     }
 }
