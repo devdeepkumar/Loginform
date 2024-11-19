@@ -30,11 +30,11 @@ body {
 
 .login-section {
     width: 100%;
-  padding: 4rem 8rem;
+  padding: 4rem 5rem;
   background: #fff;
 }
 .login-header img{
-    width: 150px;
+    width: 136px;
 }
 
 .login-header h1 {
@@ -96,12 +96,21 @@ body {
 .options input{
     width: 20px;
     height: 20px;
+    appearance: none;
+    background: #0658d4;
+    border: 10x solid black;
+    border-radius: 5px;
     margin-right: 10px;
+    border-radius: 4px;
+}
+
+.options input:checked{
+    background-image: url(./download.svg);
 }
 .options label {
   display: flex;
   align-items: center;
-  color: #aaa;
+  color: #6C757D;
   
 }
 
@@ -165,20 +174,24 @@ body {
 
 .input-icon input {
   width: 100%;
-  padding: 10px 40px; /* Adds space for the icon */
+  padding: 7px 40px; /* Adds space for the icon */
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
-  background: #FAFBFE;
+  background:  #fafbff;
+  transition: .3s;
+   box-shadow: 0px 0px 1px 1px #c2dfff;
 }
 .input-icon select {
   width: 100%;
-  padding: 10px 10px; /* Adds space for the icon */
+  padding: 7px 10px; /* Adds space for the icon */
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
-  color: #9b9595; 
-  background: #FAFBFE;
+  color: #6C757D; 
+  background:  #fafbff;
+   transition: .3s;
+    box-shadow: 0px 0px 1px 1px #c2dfff;
 }
 
 
@@ -197,7 +210,7 @@ body {
 }
 
 .input-icon input::placeholder {
-  color: #aaa;
+  color: #6C757D;
 }
 
 .input-icon::before {
