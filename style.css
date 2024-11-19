@@ -43,46 +43,7 @@ body {
   color: #092040;
 }
 
-.login-header p {
-  color: #7f8c8d;
-}
 
-.social-login .btn {
-  width: 100%;
-  margin: 0.5rem 0;
-  padding: 0.75rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-.divider {
-  text-align: center;
-  margin: 1rem 0;
-  color: #bdc3c7;
-}
-
-.input-group {
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-.input-group input {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-}
-
-.input-group .toggle-password {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 1rem;
-}
 
 .options {
   display: flex;
@@ -92,13 +53,13 @@ body {
   margin-top: 1.5rem;
 }
 .options input {
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   appearance: none;
   background: #0658d4;
   border: 10x solid black;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 5px;
   border-radius: 4px;
 }
 
@@ -138,22 +99,6 @@ body {
   text-decoration: none;
 }
 
-.info-content {
-  text-align: center;
-  padding: 1rem;
-}
-
-.info-content img {
-  margin-bottom: 1rem;
-}
-
-.info-content h3 {
-  font-size: 1.2rem;
-}
-
-.info-content p {
-  font-size: 0.9rem;
-}
 
 .form-group {
   display: flex;
@@ -175,7 +120,7 @@ body {
   background: #fafbff;
   transition: 0.3s;
   border: none;
-box-shadow: 0 0 1px 1px #c2dfff; 
+  box-shadow: 0 0 1px 1px #c2dfff; 
 
 }
 
