@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap'); 
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Host Grotesk", sans-serif;
 }
 body {
   margin: 0;
@@ -16,8 +20,8 @@ body {
 .container {
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  width: 80%;
-  height: 80vh;
+  width: 75%;
+  min-height: 80vh;
   background: white;
   border-radius: 10px;
   overflow: hidden;
@@ -49,7 +53,7 @@ body {
   margin: 0.5rem 0;
   padding: 0.75rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -70,7 +74,7 @@ body {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .input-group .toggle-password {
@@ -112,7 +116,7 @@ body {
   color: white;
   padding: 0.75rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
   margin-block: 2rem;
@@ -163,14 +167,14 @@ body {
   width: 100%;
   padding: 10px 40px; /* Adds space for the icon */
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 16px;
 }
 .input-icon select {
   width: 100%;
   padding: 10px 10px; /* Adds space for the icon */
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 16px;
   color: #9b9595; 
 }
@@ -345,4 +349,15 @@ background-image: url('hide.svg'); /* Replace with your password icon URL */
 
 .dot.active {
   opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .container{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .login-section{
+        padding: 10%;
+    }
 }
