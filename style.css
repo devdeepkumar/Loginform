@@ -169,6 +169,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
+  background: #FAFBFE;
 }
 .input-icon select {
   width: 100%;
@@ -177,6 +178,7 @@ body {
   border-radius: 8px;
   font-size: 16px;
   color: #9b9595; 
+  background: #FAFBFE;
 }
 
 
